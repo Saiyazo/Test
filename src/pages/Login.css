@@ -1,0 +1,54 @@
+/* หน้าพื้นหลัง */
+.login-page {
+  min-height: 100vh;
+
+  /* พื้นหลังสีน้ำเงิน-ฟ้าสวย ๆ */
+  background: linear-gradient(180deg, #8ec5fc 0%, #4a7bd0 50%, #174ea6 100%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* กล่องฟอร์มสไตล์ Glass */
+.login-card {
+  padding: 40px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+
+/* input โปร่งใส */
+.login-input {
+  background: rgba(255, 255, 255, 0.2) !important;
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+  color: #fff !important;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.login-input::placeholder {
+  color: #eee !important;
+}
+
+.login-label {
+  color: white !important;
+}
+
+.login-btn {
+  background: #006aff !important;
+  border: none;
+  padding: 10px 0;
+}
+
+/* ลิงก์ */
+.register-link {
+  color: #fff;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.register-link:hover {
+  text-decoration: underline;
+}
